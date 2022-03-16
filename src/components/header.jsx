@@ -2,15 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-<<<<<<< HEAD
     <header className="bg-gray-50 shadow-sm py-1 md:py-4 flex justify-between items-center h-16">
       <NavLink
         to="/"
-=======
-    <header class="bg-gray-50 shadow-sm py-1 md:py-4 flex justify-between items-center ">
-      <a
-        href="#"
->>>>>>> a998dac023fa29f9aab32addf7694f4b6d067f94
         className="font-bold text-center text-xl text-green-600 px-2 basis-1/5"
       >
         FTN
