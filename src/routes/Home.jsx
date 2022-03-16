@@ -1,4 +1,5 @@
 import bg from "../assets/bg.png";
+
 const Home = () => {
   return (
     <div className="flex flex-col py-12 px-28">

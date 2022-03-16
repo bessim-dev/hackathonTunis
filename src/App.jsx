@@ -5,6 +5,7 @@ import Forum from "./routes/Forum";
 import Home from "./routes/Home";
 import Login from "./routes/login";
 import SignUp from "./routes/sign-up";
+import Contact from "./routes/Contact";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="sign-up" element={<SignUp />} />
+          <Route path="Contact" element={<Contact />} />
           <Route
             path="Forum"
             element={
