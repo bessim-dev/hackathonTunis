@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className=" bg-gray-100 h-screen">
       <Header />
-      <main>
+      <main style={{ height: "calc(100% - 64px)" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="login" element={<Login />} />
