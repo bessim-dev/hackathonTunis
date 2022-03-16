@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/header";
 import PrivateRoute from "./components/PrivateRoute";
-import Document from "./routes/Document";
+import Forum from "./routes/Forum";
 import Home from "./routes/Home";
 import Login from "./routes/login";
 import SignUp from "./routes/sign-up";
 
 const App = () => {
   return (
-    <div className=" bg-gray-100 h-screen">
+    <div className="bg-gray-100 h-screen">
       <Header />
       <main style={{ height: "calc(100% - 64px)" }}>
         <Routes>
@@ -16,10 +16,10 @@ const App = () => {
           <Route path="login" element={<Login />} />
           <Route path="sign-up" element={<SignUp />} />
           <Route
-            path="document"
+            path="Forum"
             element={
               <PrivateRoute>
-                <Document />
+                <Forum />
               </PrivateRoute>
             }
           />

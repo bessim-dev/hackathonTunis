@@ -1,7 +1,7 @@
 const Login = () => {
   return (
     <div className="bg-grey-lighter flex flex-col items-center h-full">
-      <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2 shadow-lg">
+      <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
         <div className="bg-white px-6 py-8 rounded shadow-md text-black w-full flex flex-col items-center">
           <h1 className="mb-8 text-3xl text-center">Login</h1>
           <input
