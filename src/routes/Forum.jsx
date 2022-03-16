@@ -1,5 +1,7 @@
 const Forum = () => {
-  return <div>Forum</div>;
+  return (
+    <AddPost/>
+  );
 };
 
 export default Forum;
